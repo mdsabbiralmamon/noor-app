@@ -1,0 +1,7 @@
+.curved {
+    background-image: url('../../../../public/images/curveHero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    width: 100%;
+}
