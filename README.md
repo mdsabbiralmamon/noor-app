@@ -87,57 +87,54 @@ To deploy this project on Vercel:
 ## Project Structure
 
 ```bash
-├── src/                      # Source folder for all project code
-│   ├── app/                  # Next.js App Directory (routing system)
-│   │   ├── layout.js         # Default layout component for the app
-│   │   ├── page.js           # Home page (default route)
-│   │   ├── quran/            # Quran-related pages and routes
-│   │   │   ├── layout.js     # Quran-specific layout
-│   │   │   └── page.js       # Quran main page (list of surahs)
-│   │   ├── prayer-times/     # Prayer times-related pages and routes
-│   │   │   └── page.js       # Prayer times main page
-│   │   ├── dashboard/        # Dashboard pages for authenticated users
-│   │   │   └── page.js       # Main dashboard page
-│   │   ├── articles/         # Articles and duas pages
-│   │   │   └── page.js       # Main articles page
-│   │   └── api/              # API route handlers (authentication, data fetching)
-│   │       ├── auth/         # Authentication API handlers (e.g., login, registration)
-│   │       └── prayerTimes/  # API for fetching prayer times from a third-party service
+├── src/                        # Source folder for all project code
+│   ├── app/                    # Next.js App Directory (routing system)
+│   │   ├── layout.tsx          # Default layout component for the app
+│   │   ├── globals.css         # Global CSS File
+│   │   ├── icon.png            # Default fav icon for the app
+│   │   ├── page.tsx            # Home page (default route)
+│   │   ├── quran/              # Quran-related pages and routes
+│   │   │   ├── layout.tsx      # Quran-specific layout
+│   │   │   └── page.tsx        # Quran main page (list of surahs)
+│   │   ├── prayer-times/       # Prayer times-related pages and routes
+│   │   │   └── page.tsx        # Prayer times main page
+│   │   ├── dashboard/          # Dashboard pages for authenticated users
+│   │   │   └── page.tsx        # Main dashboard page
+│   │   ├── articles/           # Articles and duas pages
+│   │   │   └── page.tsx        # Main articles page
+│   │   └── api/                # API route handlers (authentication, data fetching)
+│   │       ├── auth/           # Authentication API handlers (e.g., login, registration)
+│   │       └── prayerTimes/    # API for fetching prayer times from a third-party service
 │   │
-│   ├── components/           # Reusable UI components
-│   │   ├── layout/           # Layout components (header, footer, etc.)
-│   │   ├── ui/               # Reusable UI elements (buttons, inputs, etc.)
-│   │   └── animations/       # Framer Motion animation wrappers
+│   ├── components/             # Reusable UI components
+│   │   ├── layout/             # Layout components (header, footer, etc.)
+│   │   ├── ui/                 # Reusable UI elements (buttons, inputs, etc.)
+│   │   └── animations/         # Framer Motion animation wrappers
 │   │
-│   ├── features/             # Feature-specific components
-│   │   ├── quran/            # Quran components (surah card, recitation, etc.)
-│   │   ├── prayer-times/     # Components related to prayer times
-│   │   └── dashboard/        # Components for user dashboard features
+│   ├── features/               # Feature-specific components
+│   │   ├── quran/              # Quran components (surah card, recitation, etc.)
+│   │   ├── prayer-times/       # Components related to prayer times
+│   │   └── dashboard/          # Components for user dashboard features
 │   │
-│   ├── hooks/                # Custom React hooks
-│   │   └── useAuthData.js    # Hook for managing and accessing authentication data
+│   ├── hooks/                  # Custom React hooks
+│   │   └── useAuthData.tsx     # Hook for managing and accessing authentication data
 │   │
-│   ├── services/             # API service functions (e.g., fetching prayer times)
-│   │   └── prayerTimes.js    # Logic for fetching and formatting prayer time data
+│   ├── services/               # API service functions (e.g., fetching prayer times)
+│   │   └── prayerTimes.tsx     # Logic for fetching and formatting prayer time data
 │   │
-│   ├── styles/               # Global styles and configuration for Tailwind CSS
-│   │   ├── globals.css       # Global CSS file with Tailwind imports
-│   │   ├── shadcn-theme.css  # Shadcn UI custom theme overrides
-│   │   └── tailwind.config.js# Tailwind configuration
+│   ├── context/                # Global state management with React Context
+│   │   └── AuthContext.tsx     # Authentication context and provider
 │   │
-│   ├── context/              # Global state management with React Context
-│   │   └── AuthContext.js    # Authentication context and provider
-│   │
-│   └── utils/                # Utility functions and helpers
-│       ├── formatDate.js     # Helper to format dates (e.g., for prayer times)
-│       └── authUtils.js      # Utility functions for authentication
-│
-├── .env.local                # Environment variables (API keys, secrets)
-├── tailwind.config.js        # Tailwind configuration
-├── next.config.js            # Next.js configuration
-├── package.json              # Project metadata and dependencies
-├── README.md                 # Project documentation
-└── .gitignore                # Files and directories to ignore in version control
+│   └── lib/                    # Utility functions and helpers
+│       ├── utils.ts            # Merging tailwind and shadcn
+│       └── authUtils.tsx       # Utility functions for authentication
+│ 
+├── .env.local                  # Environment variables (API keys, secrets)
+├── tailwind.config.ts          # Tailwind configuration
+├── next.config.mjs             # Next.js configuration
+├── package.json                # Project metadata and dependencies
+├── README.md                   # Project documentation
+└── .gitignore                  # Files and directories to ignore in version control
 ```
 
 ---
