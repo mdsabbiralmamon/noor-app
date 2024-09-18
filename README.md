@@ -84,7 +84,7 @@ To deploy this project on Vercel:
 
 ---
 
-## Project Structure
+## Project Structure(Draft: May Change With Project Development)
 
 ```bash
 ├── src/                        # Source folder for all project code
