@@ -89,22 +89,22 @@ To deploy this project on Vercel:
 ```bash
 ├── src/                        # Source folder for all project code
 │   ├── app/                    # Next.js App Directory (routing system)
-│   │   ├── globals.css         # Global CSS File
-│   │   ├── icon.png            # Default fav icon for the app
-│   │   ├── layout.tsx          # Default layout component for the app
-│   │   ├── page.tsx            # Home page (default route)
+│   │   ├── blog/               # Articles and duas pages
+│   │   │   └── page.tsx        # Main articles page
+│   │   ├── dashboard/          # Dashboard pages for authenticated users
+│   │   │   └── page.tsx        # Main dashboard page
 │   │   ├── quran/              # Quran-related pages and routes
-│   │   │   ├── layout.tsx      # Quran-specific layout
 │   │   │   └── page.tsx        # Quran main page (list of surahs)
 │   │   ├── prayer-times/       # Prayer times-related pages and routes
 │   │   │   └── page.tsx        # Prayer times main page
-│   │   ├── dashboard/          # Dashboard pages for authenticated users
-│   │   │   └── page.tsx        # Main dashboard page
-│   │   ├── articles/           # Articles and duas pages
-│   │   │   └── page.tsx        # Main articles page
-│   │   └── api/                # API route handlers (authentication, data fetching)
-│   │       ├── auth/           # Authentication API handlers (e.g., login, registration)
-│   │       └── prayerTimes/    # API for fetching prayer times from a third-party service
+│   │   ├── globals.css         # Global CSS File
+│   │   ├── icon.png            # Default fav icon for the app
+│   │   ├── layout.tsx          # Default layout component for the app
+│   │   └── page.tsx            # Home page (default route)
+│   │
+│   ├── apis/                   # API route handlers
+│   │   ├── auth/               # Authentication API handlers (e.g., login, registration)
+│   │   └── prayerTimes/        # API for fetching prayer times from a third-party service
 │   │
 │   ├── components/             # Reusable UI components
 │   │   ├── layout/             # Layout components (header, footer, etc.)
