@@ -107,7 +107,8 @@ To deploy this project on Vercel:
 │   │   └── prayerTimes/        # API for fetching prayer times from a third-party service
 │   │
 │   ├── components/             # Reusable UI components
-│   │   ├── layout/             # Layout components (header, footer, etc.)
+│   │   ├── home/               # Home Page Specific Components
+│   │   ├── shared/             # Shared components (header, footer, etc.)
 │   │   ├── ui/                 # Reusable UI elements (buttons, inputs, etc.)
 │   │   └── animations/         # Framer Motion animation wrappers
 │   │
@@ -128,7 +129,13 @@ To deploy this project on Vercel:
 │   └── lib/                    # Utility functions and helpers
 │       ├── utils.ts            # Merging tailwind and shadcn
 │       └── authUtils.tsx       # Utility functions for authentication
-│ 
+│
+├── public/                     # Public directory for static assets
+│   ├── images/                 # Folder for images
+│   │   ├── logo.png            # Example image file
+│   │   └── icons/              # Folder for icon images
+│   └── robots.txt              # File for search engine crawling instructions
+│
 ├── .env.local                  # Environment variables (API keys, secrets)
 ├── tailwind.config.ts          # Tailwind configuration
 ├── next.config.mjs             # Next.js configuration
