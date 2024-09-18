@@ -89,9 +89,9 @@ To deploy this project on Vercel:
 ```bash
 ├── src/                        # Source folder for all project code
 │   ├── app/                    # Next.js App Directory (routing system)
-│   │   ├── layout.tsx          # Default layout component for the app
 │   │   ├── globals.css         # Global CSS File
 │   │   ├── icon.png            # Default fav icon for the app
+│   │   ├── layout.tsx          # Default layout component for the app
 │   │   ├── page.tsx            # Home page (default route)
 │   │   ├── quran/              # Quran-related pages and routes
 │   │   │   ├── layout.tsx      # Quran-specific layout
