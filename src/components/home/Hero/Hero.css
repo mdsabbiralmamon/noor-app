@@ -1,7 +1,22 @@
 .curved {
-    background-image: url('../../../../public/images/curveHero.png');
+    background-image: url('../../../../public/images/curveHero.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
-    width: 100%;
+    height: 1080px; /* Default height for small screens */
+    max-width: 100%; /* Full width on small screens */
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) { /* Tablets and above */
+    .curved {
+        height: 1080px; /* Height for medium screens */
+        max-width: 1440px; /* Max width for medium screens */
+    }
+}
+
+@media (min-width: 1024px) { /* Laptops and above */
+    .curved {
+        height: 1080px; /* Height for large screens */
+        max-width: 1920px; /* Max width for large screens */
+    }
 }
