@@ -20,12 +20,12 @@ const Hero = () => {
                         <p className="text-lg text-gray-600">
                             We are the best Educational Organization. Let{"'"}s know about Islam and the Holy Quran!
                         </p>
-                        <Button>Discover More</Button>
+                        <Button variant="gradient" className='border-4 rounded-full p-4'>Discover More</Button>
                     </div>
 
                     {/* Image Section */}
                     <div className="flex-1 flex justify-center items-center">
-                        <Image src={heroFeatureImg.src} alt="Hero" width={500} height={500} />
+                        <Image src={heroFeatureImg.src} alt="Hero" width={800} height={800} />
                     </div>
                 </div>
             </div>
