@@ -2,6 +2,7 @@
     background-image: url('../../../../public/images/curveHero.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 1080px; /* Default height for small screens */
     max-width: 100%; /* Full width on small screens */
     margin: 0 auto;
