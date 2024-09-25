@@ -22,26 +22,26 @@ const School = () => {
                     <table className="table-auto border-separate" style={{ borderSpacing: '0 10px' }}>
                         <thead>
                             <tr className='bg-gradient-to-r from-[#f6d365] to-[#fda085] shadow-lg'>
-                                <th className="px-4 py-2 rounded-l-lg">School Calendar</th>
-                                <th className="px-4 py-2">Fall Semester</th>
-                                <th className="px-4 py-2 rounded-r-lg">Spring Semester</th>
+                                <th className="md:px-4 py-2 rounded-l-lg">School Calendar</th>
+                                <th className="md:px-4 py-2">Fall Semester</th>
+                                <th className="md:px-4 py-2 rounded-r-lg">Spring Semester</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr className='bg-white shadow-lg'>
-                                <td className="px-4 py-2 rounded-l-lg">First day</td>
-                                <td className="px-4 py-2">12.5.2020</td>
-                                <td className="px-4 py-2 rounded-r-lg">1.12.2021</td>
+                                <td className="md:px-4 py-2 rounded-l-lg">First day</td>
+                                <td className="md:px-4 py-2">12.5.2020</td>
+                                <td className="md:px-4 py-2 rounded-r-lg">1.12.2021</td>
                             </tr>
                             <tr className='bg-white shadow-lg'>
-                                <td className="px-4 py-2 rounded-l-lg">Late registration</td>
-                                <td className="px-4 py-2">12.5.2020</td>
-                                <td className="px-4 py-2 rounded-r-lg">1.12.2021</td>
+                                <td className="md:px-4 py-2 rounded-l-lg">Late registration</td>
+                                <td className="md:px-4 py-2">12.5.2020</td>
+                                <td className="md:px-4 py-2 rounded-r-lg">1.12.2021</td>
                             </tr>
                             <tr className='bg-white shadow-lg'>
-                                <td className="px-4 py-2 rounded-l-lg">Last day</td>
-                                <td className="px-4 py-2">12.5.2020</td>
-                                <td className="px-4 py-2 rounded-r-lg">1.12.2021</td>
+                                <td className="md:px-4 py-2 rounded-l-lg">Last day</td>
+                                <td className="md:px-4 py-2">12.5.2020</td>
+                                <td className="md:px-4 py-2 rounded-r-lg">1.12.2021</td>
                             </tr>
                         </tbody>
                     </table>
