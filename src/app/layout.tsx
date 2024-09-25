@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sofadi_One } from 'next/font/google'
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar/Navbar";
+import Footer from "@/components/shared/Footer/Footer";
 
 const sofadi = Sofadi_One({
   weight: "400",
@@ -29,7 +30,7 @@ export default function RootLayout({
           {children}
         </main>
         <footer>
-          <p>Footer</p>
+          <Footer />
         </footer>
       </body>
     </html>
