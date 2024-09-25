@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 1900px; /* Default height for small screens */
+  height: 2100px; /* Default height for small screens */
   max-width: 100%; /* Full width on small screens */
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@
 @media (min-width: 768px) {
   /* Tablets and above */
   .curveSectionBG {
-    height: 1900px; /* Height for medium screens */
+    height: 2400px; /* Height for medium screens */
     max-width: 1440px; /* Max width for medium screens */
   }
 }
