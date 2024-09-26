@@ -38,7 +38,7 @@ const About = () => {
                                 {/* <!-- Play Icon --> */}
                                 <div className="w-10 h-10 bg-teal-100 rounded-full flex justify-center items-center mr-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M6 4a1 1 0 00-1 1v10a1 1 0 001.528.846l8-5a1 1 0 000-1.692l-8-5A1 1 0 006 4z" clip-rule="evenodd" />
+                                        <path fillRule="evenodd" d="M6 4a1 1 0 00-1 1v10a1 1 0 001.528.846l8-5a1 1 0 000-1.692l-8-5A1 1 0 006 4z" clipRule="evenodd" />
                                     </svg>
                                 </div>
                                 Watch Our Video
