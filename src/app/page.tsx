@@ -22,7 +22,9 @@ export default function Home() {
       </div>
       <FivePillars />
       <Events />
-      <Support />
+      <div className="bg-gray-50 py-8">
+        <Support />
+      </div>
       <Blog />
       <div className="relative bg-gray-50 py-20">
         <div className="absolute inset-0 bg-white h-1/2" />
