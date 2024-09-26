@@ -4,7 +4,7 @@ import React from 'react';
 
 const Support = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto my-24 p-8'>
             <div className='flex flex-col lg:flex-row items-center justify-between'>
                 <div className='flex-1'>
                     <h3 className='text-xl font-bold'>Support Us</h3>
