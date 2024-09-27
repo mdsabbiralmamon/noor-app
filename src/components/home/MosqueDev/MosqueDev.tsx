@@ -15,16 +15,16 @@ const MosqueDev = () => {
 
                 {/* Text Section */}
                 <div className="flex-1">
-                    <span className="inline-block bg-white text-primary font-semibold py-2 px-4 rounded-full text-sm">
+                    <span className="inline-block bg-white text-primary font-semibold py-2 px-4 rounded-full text-sm shadow-md bg-primary-foreground mb-4">
                         Mosque Development
                     </span>
-                    <h1 className="text-4xl md:text-6xl font-bold text-primary leading-tight">
+                    <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
                         Come to the Mosque for your spritual treatment
                     </h1>
-                    <p className="text-lg text-gray-600">
+                    <p className="text-lg text-gray-600 mb-4">
                         The Weekend School of the Islamic Center of Allah is committed to providing quality Islamic Education according to the Quran and the Sunnah of the Prophet Mohammed (Peace Be upon Him) to a diverse student population in the greater area.
                     </p>
-                    <div className='flex justify-evenly flex-col md:flex-row'>
+                    <div className='flex justify-evenly flex-col md:flex-row mb-4'>
                         <Counter countTo={45} label="New Mosque" />
                         <Counter countTo={35} label="Old Mosque" />
                         <Counter countTo={90} label="Imams" />
