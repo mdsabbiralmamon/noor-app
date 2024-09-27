@@ -13,9 +13,9 @@ const Support = () => {
                     <Button variant="gradient">Donate Now</Button>
                 </div>
                 <div className='flex-1 flex flex-col lg:flex-row justify-between'>
-                    <CircularProgress percentage={56} label="Mosque" circleColor="text-green-500" textColor="text-green-600" />
-                    <CircularProgress percentage={45} label="Expenses" circleColor="text-pink-500" textColor="text-pink-600" />
-                    <CircularProgress percentage={74} label="Feed Hungry" circleColor="text-orange-500" textColor="text-orange-600" />
+                    <CircularProgress percentage={56} label="Mosque" circleColor="text-green-500" textColor="text-green-600" lineCap="butt" />
+                    <CircularProgress percentage={45} label="Expenses" circleColor="text-pink-500" textColor="text-pink-600" lineCap="butt" />
+                    <CircularProgress percentage={74} label="Feed Hungry" circleColor="text-orange-500" textColor="text-orange-600" lineCap="butt" />
                 </div>
             </div>
         </div>
