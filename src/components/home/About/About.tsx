@@ -15,15 +15,15 @@ const About = () => {
                 {/* Text Section */}
                 <div className="flex-1 p-8">
                     {/* <!-- About Us Section Title --> */}
-                    <h3 className="text-primary text-lg font-semibold">About US</h3>
+                    <h3 className="text-primary text-lg font-semibold rounded-full shadow-md w-fit px-4 bg-primary-foreground  mb-4">About US</h3>
 
                     {/* <!-- Main Heading --> */}
-                    <h1 className="text-4xl md:text-5xl font-bold mt-2">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
                         Seeking of knowledge is a duty of every Muslim
                     </h1>
 
                     {/* <!-- Supporting Paragraph --> */}
-                    <p className="text-base md:text-lg mt-4 max-w-3xl mx-auto">
+                    <p className="text-base md:text-lg mt-4 max-w-3xl mx-auto  mb-4">
                         The rise of Muslims to the zenith of civilization in a period of four decades was based on Islam{"'"}s emphasis on learning. This is obvious when one takes a look at the Quran and the traditions of Prophet Muhammad which are filled with references to learning, education, observation.
                     </p>
 
