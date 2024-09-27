@@ -1,9 +1,10 @@
 import React from 'react';
+import './PrayerTimes.css';
 
 const PrayerTimes = () => {
     return (
         <div>
-            <div className='container px-8 py-24 mx-auto flex flex-col md:flex-row items-center justify-between gap-12'>
+            <div className='prayerTimes container px-8 py-24 mx-auto flex flex-col md:flex-row items-center justify-between gap-12 my-24'>
                 <div className='flex-1 space-y-4'>
                     <h1 className="text-4xl md:text-6xl font-bold text-primary leading-tight">
                         Prayer Times
@@ -11,7 +12,7 @@ const PrayerTimes = () => {
                     <p className="text-lg">
                         Prayer times in your city
                     </p>
-                    <p className='text-primary underline'>
+                    <p className='text-purple-700 underline bold text-2xl'>
                         <a href="#">Monday, 20th September 2021</a>
                     </p>
                 </div>
