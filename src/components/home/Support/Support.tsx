@@ -7,9 +7,9 @@ const Support = () => {
         <div className='container mx-auto my-24 p-8'>
             <div className='flex flex-col lg:flex-row items-center justify-between'>
                 <div className='flex-1'>
-                    <h3 className='text-xl font-bold'>Support Us</h3>
-                    <h2 className='text-4xl md:text-6xl font-bold text-primary'>We Need Your Help</h2>
-                    <p>The Weekend School of the Islamic Center of Allah is committed to providing quality Islamic Education according to the Quran.</p>
+                    <h3 className='text-primary text-lg font-semibold rounded-full shadow-md w-fit px-4 bg-primary-foreground  mb-4'>Support Us</h3>
+                    <h2 className='text-4xl md:text-6xl font-bold text-primary mb-4'>We Need Your Help</h2>
+                    <p className=' mb-4'>The Weekend School of the Islamic Center of Allah is committed to providing quality Islamic Education according to the Quran.</p>
                     <Button variant="gradient">Donate Now</Button>
                 </div>
                 <div className='flex-1 flex flex-col lg:flex-row justify-between'>
