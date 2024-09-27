@@ -6,13 +6,15 @@ type CircularProgressProps = {
   label: string;
   circleColor?: string;
   textColor?: string;
+  lineCap?: 'butt' | 'round' | 'square';  
 };
 
 const CircularProgress: React.FC<CircularProgressProps> = ({
   percentage,
   label,
   circleColor = "text-blue-500",  // Default circle color
-  textColor = "text-blue-600"     // Default text color
+  textColor = "text-blue-600",    // Default text color
+  lineCap = "round",              // Default to round stroke line cap
 }) => {
   const radius = 80; // Circle radius
   const circumference = 2 * Math.PI * radius; // Circumference formula
@@ -44,7 +46,7 @@ const CircularProgress: React.FC<CircularProgressProps> = ({
           strokeWidth="30"
           strokeDasharray={circumference}
           strokeDashoffset={strokeDashoffset}
-          strokeLinecap="round"
+          strokeLinecap={lineCap}  // Apply the lineCap from props
           stroke="currentColor"
           fill="transparent"
           r={radius}
@@ -62,13 +64,13 @@ const CircularProgress: React.FC<CircularProgressProps> = ({
           y="50%"
           dominantBaseline="middle"
           textAnchor="middle"
-          className={`text-4xl font-bold ${textColor}`} // Adjusted text size
+          className={`text-4xl font-bold ${textColor}`} 
         >
           {percentage}%
         </text>
       </svg>
       {/* Label Below the Progress Circle */}
-      <p className={`mt-4 text-2xl font-semibold ${textColor}`}>{label}</p>  {/* Adjusted label font size */}
+      <p className={`mt-4 text-2xl font-semibold ${textColor}`}>{label}</p>  
     </div>
   );
 };
