@@ -44,8 +44,8 @@ const FivePillars = () => {
                 src={pillar.imageSrc}
                 alt={pillar.name}
                 className="w-64 h-64 rounded-full object-contain"
-                width={80}
-                height={80}
+                width={1000}
+                height={1000}
               />
             </div>
             {/* Pillar Name */}
