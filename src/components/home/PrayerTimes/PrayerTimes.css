@@ -1,0 +1,7 @@
+.prayerTimes {
+    background-image: url('../../../../public/images/prayer-times-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 20px;
+}
