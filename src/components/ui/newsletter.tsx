@@ -2,7 +2,7 @@ import React from 'react';
 
 const Newsletter: React.FC = () => {
   return (
-    <section className="bg-primary-foreground p-8 w-fit rounded-lg shadow-lg mx-auto">
+    <section className="bg-primary-foreground p-8 max-w-3xl rounded-lg shadow-lg mx-auto">
       <div className="container mx-auto text-center">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
