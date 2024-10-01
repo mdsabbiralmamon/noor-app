@@ -1,9 +1,10 @@
+import Banner from '@/components/shared/Banner/Banner';
 import React from 'react';
 
 const PrayerTimes = () => {
     return (
         <div>
-            coming soon ...
+            <Banner title={'Prayer Times'} />
         </div>
     );
 };
